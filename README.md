@@ -92,9 +92,6 @@
   <a href="https://github.com/anubhav-n-mishra" target="blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
----
-
-### 📊 *GitHub Stats*
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=anubhav-n-mishra&show_icons=true&theme=radical" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anubhav-n-mishra&layout=compact&theme=radical" alt="Top Languages" />
