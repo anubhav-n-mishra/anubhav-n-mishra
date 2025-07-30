@@ -98,4 +98,5 @@
 </p>
 <!-- Snake animation -->
 ---
+
 ![snake gif](https://github.com/anubhav-n-mishra/anubhav-n-mishra/blob/main/github-snake-dark.svg)
