@@ -96,3 +96,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=anubhav-n-mishra&show_icons=true&theme=radical" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anubhav-n-mishra&layout=compact&theme=radical" alt="Top Languages" />
 </p>
+<!-- Snake animation -->
+---
+![snake gif](https://github.com/anubhav-n-mishra/anubhav-n-mishra/blob/main/github-snake-dark.svg)
