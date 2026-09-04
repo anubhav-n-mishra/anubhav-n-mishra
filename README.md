@@ -25,6 +25,12 @@ Things you can go and look at right now — not demos, not screenshots.
 | **Yuitility** | 79 client-side tools — PDF suite, image processing, local-ML background removal. Nothing ever leaves your browser. | [yuitility.app](https://yuitility.app) |
 | **Phexara / Nebula** | Chromium desktop browser. Workspaces instead of tabs, Ctrl+K command bar, built-in AI console. Windows installer + Linux AppImage. | [phexara.mishraanubhav.me](https://phexara.mishraanubhav.me) |
 
+<sub>Live status, checked by Shields on every page load:</sub>
+
+[![yuitility.app](https://img.shields.io/website?url=https%3A%2F%2Fyuitility.app&label=yuitility.app&up_message=live&up_color=2EA043&down_message=down&style=flat-square)](https://yuitility.app)
+[![sevasankul.org](https://img.shields.io/website?url=https%3A%2F%2Fsevasankul.org&label=sevasankul.org&up_message=live&up_color=2EA043&down_message=down&style=flat-square)](https://sevasankul.org)
+[![phexara](https://img.shields.io/website?url=https%3A%2F%2Fphexara.mishraanubhav.me&label=phexara&up_message=live&up_color=2EA043&down_message=down&style=flat-square)](https://phexara.mishraanubhav.me)
+
 ---
 
 <picture>
@@ -150,6 +156,10 @@ never competes in search for something it cannot do. `npm run seo:audit` runs as
 
 ## Tools, sorted honestly
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,postgres,supabase,prisma,python,fastapi,docker,c,cpp,electron,tailwind,linux,git&theme=dark" alt="TypeScript, Next.js, React, Node.js, PostgreSQL, Supabase, Prisma, Python, FastAPI, Docker, C, C++, Electron, Tailwind, Linux, Git">
+</p>
+
 <table>
 <tr>
 <td valign="top" width="34%">
@@ -197,6 +207,38 @@ never competes in search for something it cannot do. `npm run seo:audit` runs as
 - Building out **ABS Pathshala** — admissions, payments and background jobs are next
 - Growing **Yuitility** past 79 tools, with the SEO gate holding the line
 - Taking **select freelance work** — SaaS products, Postgres-heavy backends, on-prem delivery
+
+---
+
+## Activity
+
+<!-- ------------------------------------------------------------------ -->
+<!-- STATS HOST: these point at the shared public instance, which rate-  -->
+<!-- limits and can render broken. Fork github-readme-stats, deploy to   -->
+<!-- Vercel, then find/replace:                                          -->
+<!--   github-readme-stats.vercel.app  ->  your-app.vercel.app           -->
+<!-- ------------------------------------------------------------------ -->
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=anubhav-n-mishra&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=D9F99D&icon_color=D9F99D&text_color=8A887C&bg_color=0C0C0B" alt="GitHub statistics">
+  <img height="165" src="https://streak-stats.demolab.com?user=anubhav-n-mishra&hide_border=true&background=0C0C0B&stroke=2E2E24&ring=D9F99D&fire=D9F99D&currStreakLabel=D9F99D&sideLabels=8A887C&dates=8A887C&sideNums=F7F6F3&currStreakNum=F7F6F3" alt="Commit streak">
+</p>
+
+<p align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=anubhav-n-mishra&bg_color=0C0C0B&color=F7F6F3&line=D9F99D&point=F7F6F3&area=true&hide_border=true" alt="Contribution activity over time">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anubhav-n-mishra/anubhav-n-mishra/output/snake-dark.svg">
+    <img width="98%" src="https://raw.githubusercontent.com/anubhav-n-mishra/anubhav-n-mishra/output/snake.svg" alt="Contribution graph being eaten by a snake">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/anubhav-n-mishra/Desktop-QR-Scanner"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anubhav-n-mishra&repo=Desktop-QR-Scanner&hide_border=true&title_color=D9F99D&icon_color=D9F99D&text_color=8A887C&bg_color=0C0C0B" alt="QRiftly"></a>
+  <a href="https://github.com/anubhav-n-mishra/xtts-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anubhav-n-mishra&repo=xtts-api&hide_border=true&title_color=D9F99D&icon_color=D9F99D&text_color=8A887C&bg_color=0C0C0B" alt="XTTS Voice API"></a>
+</p>
 
 ---
 
