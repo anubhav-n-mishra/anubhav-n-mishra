@@ -1,194 +1,179 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Anubhav Mishra — Product Engineer. x86 kernels to LLVM compilers to multi-tenant SaaS in production. Dehradun, India. Open to work." src="assets/hero-light.svg">
+</picture>
 
-# Anubhav Mishra
+I build products end to end. Some of them run on customers' own servers behind a licence
+check, some run in a browser tab, and one of them boots off a floppy image in QEMU.
 
-**I build multi-tenant SaaS and self-hosted enterprise software.**
-*Mostly TypeScript, Next.js and PostgreSQL — where getting authorization wrong is a data breach, not a bug ticket.*
-
-<br>
-
-[![Website](https://img.shields.io/badge/mishraanubhav.me-0B0B0B?style=for-the-badge&logo=firefox&logoColor=white)](https://mishraanubhav.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-mishra0)
-[![Email](https://img.shields.io/badge/Email-C5221F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anubhav09.work@gmail.com)
-
-![Location](https://img.shields.io/badge/Dehradun,_India-444?style=flat-square&logo=googlemaps&logoColor=white)
-![Remote](https://img.shields.io/badge/Remote-worldwide-2EA043?style=flat-square)
-![Timezone](https://img.shields.io/badge/IST-UTC%2B5%3A30-444?style=flat-square)
-![Available](https://img.shields.io/badge/status-open%20to%20work%20%26%20freelance-2EA043?style=flat-square)
-
-</div>
+I run engineering at **Amvelt Venture Studios**, where I design and ship the ABS product
+suite. Before that I led a four-person team building an x86 operating system from the
+bootloader up, and wrote a compiler with a real LLVM backend. I mention those two not
+because they pay the bills, but because they are why I am comfortable anywhere in a stack.
 
 ---
+
+## Live, in production
+
+Things you can go and look at right now — not demos, not screenshots.
+
+| | What it is | Where |
+|---|---|---|
+| **Terra** | Land, legal and approvals platform for renewable-energy developers. Ships as licensed Docker images onto the customer's own infrastructure. | [terra.amvelt.com](https://terra.amvelt.com) |
+| **Seva Sankul** | Public platform and admin portal delivered under subcontract to **GTO Sky for the Rajasthan Police**. | [sevasankul.org](https://sevasankul.org) |
+| **ABS Hive** | Amvelt's internal workspace — projects, tasks, internal `@amvelt.com` mail, live chat, full audit trail. Installable PWA that keeps working with no network. | [hive.amvelt.com](https://hive.amvelt.com) *(login required)* |
+| **Yuitility** | 79 client-side tools — PDF suite, image processing, local-ML background removal. Nothing ever leaves your browser. | *link on request* |
+| **Phexara / Nebula** | Chromium desktop browser. Workspaces instead of tabs, Ctrl+K command bar, built-in AI console. Windows installer + Linux AppImage. | *download on request* |
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/layers-dark.svg">
+  <img alt="Where I actually work: from hardware and boot, through compilers, native desktop, services and APIs, data and authorization, up to multi-tenant product." src="assets/layers-light.svg">
+</picture>
 
 > [!NOTE]
-> **Right now:** building **Terra** — land, legal and approvals management for renewable-energy
-> developers, delivered as licensed Docker images onto the customer's own servers — and
-> **ABS-Pathshala**, a multi-tenant education ERP. Both at [Amvelt Venture Studios](https://mishraanubhav.me).
+> That diagram is the whole point. Most people who write Next.js have never written a
+> bootloader, and most people who write bootloaders have never shipped a multi-tenant SaaS
+> to a paying customer. I have done both, and the middle is where the interesting problems live.
 
 ---
 
-## The short version
-
-| | |
-|---|---|
-| **What I do** | Full-stack product engineering, leaning backend and platform |
-| **Best at** | Multi-tenant architecture, Postgres row-level security, auth &amp; licensing, shipping software that runs on someone else's infrastructure |
-| **Daily stack** | TypeScript · Next.js · PostgreSQL · Supabase · Prisma · Docker |
-| **Also fluent** | Python (FastAPI) · C / C++ · systems &amp; compilers |
-| **Background** | B.Tech CSE, Graphic Era Hill University (May 2026) · led a 4-person OS team · wrote an LLVM compiler |
-| **Based in** | Dehradun, Uttarakhand, India · IST (UTC+5:30) |
-| **Looking for** | Remote full-stack / backend roles, and freelance work on SaaS products |
-
----
-
-## How I think about building things
-
-```mermaid
-flowchart LR
-    A["Browser<br/>renders, never trusts"] --> B["Server actions<br/>every write goes here"]
-    B --> C["PostgreSQL + RLS<br/>the real access control"]
-    B --> D["Licensing + entitlements<br/>fails closed"]
-    C --> E["Structural tests<br/>fail the build, not production"]
-    D --> E
-
-    style C fill:#1f6feb,stroke:#1f6feb,color:#fff
-    style E fill:#2ea043,stroke:#2ea043,color:#fff
-```
-
-Hiding a button is not security. If a user shouldn't read a row, the *database* should be
-what stops them — and a test should fail the build the day someone forgets that.
-
----
-
-## Selected work
-
-<table>
-<tr><td width="50%" valign="top">
-
-### 🌍 Terra
-**Land lifecycle platform · renewable energy**
-
-Next.js + self-hosted Supabase. GIS mapping, legal/TSR
-tracking, a document vault, approvals and payments —
-running entirely on the customer's own server.
-
-`Next.js` `TypeScript` `PostgreSQL` `Docker` `MinIO`
-
-</td><td width="50%" valign="top">
-
-### 🎓 ABS-Pathshala
-**Multi-tenant education ERP SaaS**
-
-ERPNext is the ERP a school runs. This is the platform
-that runs hundreds of them — provisioning, billing and
-operating one instance per institution.
-
-`Next.js 15` `Prisma` `pnpm` `Postgres RLS`
-
-</td></tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/suite-dark.svg">
+  <img alt="Amvelt Business Suite: a central ABS control plane connected to Terra, Hive and Pathshala, plus independent products Yuitility, Phexara, Kuroex and QRiftly." src="assets/suite-light.svg">
+</picture>
 
 <details>
-<summary><b>🔎 Terra — what's actually interesting about it</b></summary>
+<summary><b>Terra</b> — on-prem enterprise delivery, and why it is hard</summary>
 
 <br>
 
-Terra is one Next.js application plus a self-hosted Supabase stack (GoTrue, PostgREST,
-storage-api on MinIO, Valkey, a pg-boss worker). Customers never receive source — they get
-pre-built Docker images, generate their own secrets, and run it themselves.
+One Next.js app plus a self-hosted Supabase stack — GoTrue, PostgREST, storage-api on MinIO,
+Valkey, a pg-boss worker. Customers never receive source. They get pre-built Docker images,
+generate their own secrets, and run the whole thing themselves.
 
-**The parts I'd want to talk through in an interview:**
-
-- **164 row-level-security policies** are the primary access control. Server actions are a
-  *second* layer, not the first. Hiding UI protects nothing.
+- **164 row-level-security policies** are the primary access control. Server actions are the
+  *second* layer, not the first. Hiding a button protects nothing.
 - **Ed25519-signed licences bound to machine hardware.** Entitlements fail closed — no valid
-  licence means paid modules are simply off, not degraded.
-- **Three structural tests that fail your PR by design** — a server action with no auth call,
-  a gated feature with no entitlement check, or an undocumented `SECURITY DEFINER` function
-  all break the build.
+  licence means paid modules are off, not degraded.
+- **Three structural tests fail your PR by design**: a server action with no auth call, a gated
+  feature with no entitlement check, or an undocumented `SECURITY DEFINER` function.
 - **Split test suites, deliberately.** Unit tests run on a clean checkout with no Docker so CI
-  can run them on every push; integration tests bring up real Postgres and assert what the
-  *database* enforces, because testing RLS against a mock proves nothing.
+  can run them every push. Integration tests bring up real Postgres and assert what the
+  *database* enforces — testing RLS against a mock proves nothing.
 - **Approval authority is a function, not a comparison.** `top_management` sits above
-  `division_vp` in tier order but deliberately cannot approve — a naive tier comparison would
+  `division_vp` in tier order but deliberately cannot approve. A naive tier comparison would
   silently grant authority the design withholds.
-- Handling real landowner PII means DPDP Act obligations are a design constraint, not an afterthought.
+- Real landowner PII means DPDP Act obligations are a design constraint, not an afterthought.
 
-Documented with ADRs, runbooks, a threat model and a backup/restore policy.
+ADRs, runbooks, a threat model, and a documented backup/restore policy.
 
 </details>
 
 <details>
-<summary><b>🔎 ABS-Pathshala — multi-tenancy done carefully</b></summary>
+<summary><b>ABS Hive</b> — offline-first, and the dedup problem nobody mentions</summary>
 
 <br>
 
-A pnpm monorepo: Next.js 15 app, a framework-free `core` package, Prisma + RLS in `db`, a
-shared design system. One deployable, many tenants.
+An installable PWA that genuinely works with no network, not one that shows a sad cloud icon.
+
+- **Every write goes into an IndexedDB outbox first** and replays when the network returns.
+  Duplicate replays are impossible because each payload carries a `client_id` that is `UNIQUE`
+  in Postgres — the database refuses the second copy rather than the client trying to remember.
+- Replays give up after eight attempts, so one poisoned row cannot wedge the whole queue.
+- **Chat sends over Realtime broadcast first, database write reconciles behind it**, so delivery
+  feels instant. The broadcast is a latency optimisation, never the delivery guarantee.
+- **Web Push via VAPID**, fanned out by a Postgres trigger calling a Supabase Edge Function, so
+  alerts arrive with the app fully closed.
+- **Passkeys (WebAuthn) and TOTP.** Admin accounts cannot get in on a password alone — enforced
+  server-side in the layout, not hidden in the UI.
+- Identity provisioning mints `first.last@amvelt.com`, emails credentials over SMTP, and forces
+  a password change at first sign-in.
+
+Interface follows Apple's fluid-interface principles: feedback on pointer-down rather than
+release, drags tracking one-to-one, flicks resolved by projecting release velocity.
+`prefers-reduced-motion`, `prefers-reduced-transparency` and `prefers-contrast` all honoured.
+
+</details>
+
+<details>
+<summary><b>ABS Pathshala</b> — multi-tenancy where a mistake is a cross-tenant leak</summary>
+
+<br>
+
+ERPNext is the ERP a school runs. Pathshala is the platform that runs hundreds of them.
 
 - **Tenant identity comes from the `Host` header only** — never a query param, body field or
   client-settable header. Middleware strips inbound `x-tenant-*` headers before routing.
 - **`withTenant()` sets `app.tenant_id` transaction-locally**, which is what makes connection
   pooling safe under multi-tenancy.
 - **`DATABASE_URL` must point at `abs_app`, never `postgres`** — Supabase's `postgres` role has
-  `rolbypassrls`, so that one mistake disables every isolation policy silently, with no error
-  and no log line.
-- **`rls-coverage.test.ts` fails the build** if any tenant-scoped table lacks
-  `FORCE ROW LEVEL SECURITY`.
-- **11 ADRs**, an EARS-format PRD, and a 326-item feature register tracked honestly — the
-  README states plainly that ~21% is built and lists exactly what isn't.
-
-Five portal-scoped auth sessions (master, admin, teacher, student, parent), RLS isolation
-across 40 tables, self-serve provisioning.
+  `rolbypassrls`, so that single mistake disables every isolation policy silently, with no
+  error and no log line.
+- **`rls-coverage.test.ts` fails the build** if any tenant-scoped table lacks `FORCE ROW LEVEL SECURITY`.
+- **11 ADRs**, an EARS-format PRD, and a 326-item feature register tracked honestly — the repo
+  states plainly that ~21% is built and lists exactly what is not.
 
 </details>
 
 <details>
-<summary><b>🔎 Open source &amp; public projects</b></summary>
+<summary><b>Yuitility</b> — 79 tools, zero servers, and an SEO gate in CI</summary>
 
 <br>
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[QRiftly](https://github.com/anubhav-n-mishra/Desktop-QR-Scanner)** ⭐10 | Shipped Windows QR scanner — popup camera, theming, WiFi auto-connect from QR, fully offline. Distributed as a signed `.exe`. | `Python` `OpenCV` `pyzbar` `Tkinter` |
-| **[XTTS-v2 TTS API](https://github.com/anubhav-n-mishra/xtts-api)** ⭐3 | Production TTS API — voice cloning, 17 languages, tiered auth, rate limiting, async job queue, audio caching, usage analytics, admin dashboard. | `FastAPI` `Docker` `SQLite` `Coqui XTTS` |
-| **[ARGON OS](https://github.com/anubhav-n-mishra/AGRAN_OS)** | x86 OS from scratch — custom bootloader, protected-mode switch, round-robin scheduler, in-memory FS, interactive shell. **I led a team of 4** on architecture, integration and the bootloader/toolchain. | `C` `NASM` `QEMU` `i686-elf` |
-| **[GRAN](https://github.com/anubhav-n-mishra/GRAN)** | Statically-typed language with a real **LLVM-19 backend** — lexer, recursive-descent parser, IR generation, C runtime library. Academic team project. | `C++` `LLVM` `Make` |
-| **[Automated Insight Engine](https://github.com/anubhav-n-mishra/Automated-ai-insight-system)** | Raw data → ranked insights → generated PowerPoint + AI voice briefing + QR-gated live dashboard. Polars over Pandas, DuckDB for joins. | `FastAPI` `Polars` `DuckDB` `Gemini` |
-| **[POI Blueprint Inspector](https://github.com/anubhav-n-mishra/POI_INSPECTOR)** | Scores point-of-interest polygon accuracy against satellite imagery — IOU, leakage, road overlap — with a weighted 0–100 grade and PDF reports. | `FastAPI` `OpenCV` `Shapely` `Next.js` |
+A client-side utility suite: PDF merge/split/compress/watermark, image conversion and
+compression, local-ML background removal via WebAssembly, fake-data generation, financial
+calculators. Everything runs in the browser — no upload, no round trip, no privacy question.
+
+The part I am actually proud of is the discipline around it. 49 further tools are declared but
+unbuilt, and those routes serve an honest "not built yet" page marked `noindex`, so the site
+never competes in search for something it cannot do. `npm run seo:audit` runs as `prebuild` and
+**adding a tool id without a matching component fails the build.**
 
 </details>
 
 ---
 
-## Tools, honestly sorted
+## Selected engineering
 
-> [!TIP]
-> Everyone lists thirty logos. Here's the version that's actually useful to you.
+| Project | What makes it worth a look | Stack |
+|---|---|---|
+| **[QRiftly](https://github.com/anubhav-n-mishra/Desktop-QR-Scanner)** ⭐10 | Shipped Windows app, distributed as a standalone `.exe`. Popup camera, theming, WiFi auto-connect straight from a QR. Fully offline. | `Python` `OpenCV` `pyzbar` |
+| **[XTTS Voice API](https://github.com/anubhav-n-mishra/xtts-api)** ⭐3 | Production TTS — voice cloning, 17 languages, tiered auth, rate limiting, async job queue, audio caching, usage analytics, admin dashboard. | `FastAPI` `Docker` `Coqui XTTS` |
+| **[ARGON OS](https://github.com/anubhav-n-mishra/AGRAN_OS)** | x86 OS from scratch — bootloader, protected-mode switch, round-robin scheduler, in-memory FS, interactive shell. **I led the team of four**: architecture, integration, bootloader, toolchain. | `C` `NASM` `QEMU` `i686-elf` |
+| **[GRAN](https://github.com/anubhav-n-mishra/GRAN)** | Statically-typed language on a real **LLVM-19 backend** — lexer, recursive-descent parser, IR generation, C runtime library. | `C++` `LLVM` `Make` |
+| **[Insight Engine](https://github.com/anubhav-n-mishra/Automated-ai-insight-system)** | Raw CSV/SQL → ranked insights → generated PowerPoint + 30-second AI voice briefing + QR-gated live dashboard. Polars over Pandas, DuckDB for joins. | `FastAPI` `Polars` `DuckDB` `Gemini` |
+| **[POI Inspector](https://github.com/anubhav-n-mishra/POI_INSPECTOR)** | Scores point-of-interest polygons against satellite imagery — IOU, leakage, road overlap — into a weighted 0–100 grade with PDF reports. | `FastAPI` `OpenCV` `Shapely` `Next.js` |
+
+---
+
+## Tools, sorted honestly
 
 <table>
 <tr>
-<td valign="top" width="33%">
+<td valign="top" width="34%">
 
-**I'd defend these in an interview**
+**Would defend in an interview**
 
-`TypeScript` `Next.js`
-`PostgreSQL` `SQL + RLS`
-`React` `Node.js`
-`Python` `FastAPI`
-`Docker` `Supabase`
-`C` `Git`
+`TypeScript` · `Next.js`
+`PostgreSQL` · `SQL + RLS`
+`React` · `Node.js`
+`Python` · `FastAPI`
+`Docker` · `Supabase`
+`C` · `Git`
 
 </td>
 <td valign="top" width="33%">
 
-**Used in real projects**
+**Shipped real things with**
 
-`Prisma` `pnpm` `Vitest`
-`C++` `LLVM` `NASM`
-`Tailwind` `MinIO / S3`
-`OpenCV` `Polars` `DuckDB`
-`GitHub Actions` `Linux`
+`Prisma` · `pnpm` · `Vitest`
+`C++` · `LLVM` · `NASM`
+`Electron` · `WebAssembly`
+`Tailwind` · `MinIO / S3`
+`OpenCV` · `Polars` · `DuckDB`
+`WebAuthn` · `Web Push`
 
 </td>
 <td valign="top" width="33%">
@@ -198,7 +183,6 @@ across 40 tables, self-serve provisioning.
 `Distributed systems`
 `Observability & tracing`
 `Payments at scale`
-`Background job architecture`
 `Kubernetes`
 
 </td>
@@ -207,39 +191,30 @@ across 40 tables, self-serve provisioning.
 
 ---
 
-## What I'm working on
+## What I'm on right now
 
-```mermaid
-timeline
-    title Recent focus
-    2025 H1 : ARGON OS - team lead : GRAN compiler
-    2025 H2 : QRiftly v2.0 : XTTS voice API : Insight Engine
-    2026 H1 : B.Tech CSE - graduated May 2026 : Amvelt Business Suite : Multi-tenant foundations
-    2026 H2 : Terra on-prem delivery : ABS-Pathshala ERP
-```
-
-- 🏗️ Hardening **Terra** toward its first production go-live
-- 🧩 Building out **ABS-Pathshala** — admissions, payments and background jobs are next
-- 📚 Reading more on distributed systems and production observability
-- 🤝 Taking on **select freelance work** — SaaS products, Postgres-heavy backends, Next.js apps
+- Driving **Terra** through its production go-lives, and the on-prem delivery pipeline around it
+- Building out **ABS Pathshala** — admissions, payments and background jobs are next
+- Growing **Yuitility** past 79 tools, with the SEO gate holding the line
+- Taking **select freelance work** — SaaS products, Postgres-heavy backends, on-prem delivery
 
 ---
 
 <div align="center">
 
-## Let's talk
+### Let's talk
 
-I'm open to **remote full-stack / backend roles** and **freelance projects**.
+Open to **remote engineering roles** and **freelance projects**.
 
-If you're building a SaaS product and the words *"multi-tenant"*, *"row-level security"* or
-*"we need to self-host this for a client"* are in your near future — that's my favourite kind of problem.
+If the words *multi-tenant*, *row-level security*, or *"we need to self-host this for a client"*
+are anywhere in your next six months — that is my favourite kind of problem.
 
 <br>
 
 [![Email](https://img.shields.io/badge/anubhav09.work@gmail.com-C5221F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anubhav09.work@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-mishra0)
-[![Website](https://img.shields.io/badge/mishraanubhav.me-0B0B0B?style=for-the-badge&logo=firefox&logoColor=white)](https://mishraanubhav.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-mishra0)
+[![Website](https://img.shields.io/badge/mishraanubhav.me-0C0C0B?style=for-the-badge&logo=firefox&logoColor=D9F99D)](https://mishraanubhav.me)
 
-<sub>Based in Dehradun, India (IST, UTC+5:30) · Usually reply within a day · Comfortable overlapping with EU and US-East hours</sub>
+<sub>Dehradun, India · IST (UTC+5:30) · comfortable overlapping EU and US-East hours · usually reply within a day</sub>
 
 </div>
