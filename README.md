@@ -11,6 +11,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-mishra0)
 [![Email](https://img.shields.io/badge/Email-C5221F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anubhav09.work@gmail.com)
 
+![Location](https://img.shields.io/badge/Dehradun,_India-444?style=flat-square&logo=googlemaps&logoColor=white)
 ![Remote](https://img.shields.io/badge/Remote-worldwide-2EA043?style=flat-square)
 ![Timezone](https://img.shields.io/badge/IST-UTC%2B5%3A30-444?style=flat-square)
 ![Available](https://img.shields.io/badge/status-open%20to%20work%20%26%20freelance-2EA043?style=flat-square)
@@ -34,7 +35,8 @@
 | **Best at** | Multi-tenant architecture, Postgres row-level security, auth &amp; licensing, shipping software that runs on someone else's infrastructure |
 | **Daily stack** | TypeScript · Next.js · PostgreSQL · Supabase · Prisma · Docker |
 | **Also fluent** | Python (FastAPI) · C / C++ · systems &amp; compilers |
-| **Background** | B.Tech CSE, Graphic Era Hill University · led a 4-person OS team · wrote an LLVM compiler |
+| **Background** | B.Tech CSE, Graphic Era Hill University (May 2026) · led a 4-person OS team · wrote an LLVM compiler |
+| **Based in** | Dehradun, Uttarakhand, India · IST (UTC+5:30) |
 | **Looking for** | Remote full-stack / backend roles, and freelance work on SaaS products |
 
 ---
@@ -212,7 +214,7 @@ timeline
     title Recent focus
     2025 H1 : ARGON OS - team lead : GRAN compiler
     2025 H2 : QRiftly v2.0 : XTTS voice API : Insight Engine
-    2026 H1 : Amvelt Business Suite : Multi-tenant foundations
+    2026 H1 : B.Tech CSE - graduated May 2026 : Amvelt Business Suite : Multi-tenant foundations
     2026 H2 : Terra on-prem delivery : ABS-Pathshala ERP
 ```
 
@@ -238,6 +240,6 @@ If you're building a SaaS product and the words *"multi-tenant"*, *"row-level se
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-mishra0)
 [![Website](https://img.shields.io/badge/mishraanubhav.me-0B0B0B?style=for-the-badge&logo=firefox&logoColor=white)](https://mishraanubhav.me)
 
-<sub>Usually reply within a day · Comfortable overlapping with EU and US-East hours</sub>
+<sub>Based in Dehradun, India (IST, UTC+5:30) · Usually reply within a day · Comfortable overlapping with EU and US-East hours</sub>
 
 </div>
