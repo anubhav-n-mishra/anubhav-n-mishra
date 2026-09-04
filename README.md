@@ -274,6 +274,10 @@ are anywhere in your next six months — that is my favourite kind of problem.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-mishra0)
 [![Website](https://img.shields.io/badge/mishraanubhav.me-0C0C0B?style=for-the-badge&logo=firefox&logoColor=D9F99D)](https://mishraanubhav.me)
 
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=anubhav-n-mishra&label=profile%20views&color=4D7C0F&style=flat-square" alt="Profile views">
+
 <sub>Dehradun, India · IST (UTC+5:30) · comfortable overlapping EU and US-East hours · usually reply within a day</sub>
 
 </div>
