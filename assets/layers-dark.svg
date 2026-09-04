@@ -1,38 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img">
-  <rect width="1200" height="600" fill="#0C0C0B"/>
-  <text x="56" y="52" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="23" font-weight="700" fill="#F7F6F3">Where I actually work</text>
-  <text x="56" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8A887C">every layer below has shipped code, not coursework</text>
-  <line x1="34" y1="108" x2="34" y2="562" stroke="#2E2E24" stroke-width="2"/>
-  <text x="20" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8A887C" transform="rotate(-90 20 130)" text-anchor="end">user-facing</text>
-  <text x="20" y="556" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8A887C" transform="rotate(-90 20 556)">bare metal</text>
-  <rect x="56" y="108" width="1088" height="70" rx="10" fill="#15150F" stroke="#2E2E24" stroke-width="1"/>
-  <rect x="56" y="108" width="4" height="70" rx="2" fill="#D9F99D" opacity="0.95"/>
-  <text x="82" y="137" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#F7F6F3">Multi-tenant product</text>
-  <text x="82" y="160" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8A887C">ABS Suite - Terra, Pathshala, Hive</text>
-  <text x="1120" y="150" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8A887C" text-anchor="end">Next.js 15 - Supabase - Prisma</text>
-  <rect x="56" y="184" width="1088" height="70" rx="10" fill="#15150F" stroke="#2E2E24" stroke-width="1"/>
-  <rect x="56" y="184" width="4" height="70" rx="2" fill="#D9F99D" opacity="0.86"/>
-  <text x="82" y="213" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#F7F6F3">Data &amp; authorization</text>
-  <text x="82" y="236" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8A887C">164 RLS policies, tenant isolation</text>
-  <text x="1120" y="226" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8A887C" text-anchor="end">PostgreSQL - RLS - pg-boss</text>
-  <rect x="56" y="260" width="1088" height="70" rx="10" fill="#15150F" stroke="#2E2E24" stroke-width="1"/>
-  <rect x="56" y="260" width="4" height="70" rx="2" fill="#D9F99D" opacity="0.77"/>
-  <text x="82" y="289" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#F7F6F3">Services &amp; APIs</text>
-  <text x="82" y="312" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8A887C">XTTS voice API, Insight Engine</text>
-  <text x="1120" y="302" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8A887C" text-anchor="end">FastAPI - Docker - Polars</text>
-  <rect x="56" y="336" width="1088" height="70" rx="10" fill="#15150F" stroke="#2E2E24" stroke-width="1"/>
-  <rect x="56" y="336" width="4" height="70" rx="2" fill="#D9F99D" opacity="0.68"/>
-  <text x="82" y="365" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#F7F6F3">Native desktop</text>
-  <text x="82" y="388" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8A887C">Phexara browser, QRiftly scanner</text>
-  <text x="1120" y="378" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8A887C" text-anchor="end">Electron - Python - OpenCV</text>
-  <rect x="56" y="412" width="1088" height="70" rx="10" fill="#15150F" stroke="#2E2E24" stroke-width="1"/>
-  <rect x="56" y="412" width="4" height="70" rx="2" fill="#D9F99D" opacity="0.59"/>
-  <text x="82" y="441" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#F7F6F3">Language &amp; compiler</text>
-  <text x="82" y="464" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8A887C">GRAN - lexer, parser, IR generation</text>
-  <text x="1120" y="454" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8A887C" text-anchor="end">C++ - LLVM 19</text>
-  <rect x="56" y="488" width="1088" height="70" rx="10" fill="#15150F" stroke="#2E2E24" stroke-width="1"/>
-  <rect x="56" y="488" width="4" height="70" rx="2" fill="#D9F99D" opacity="0.50"/>
-  <text x="82" y="517" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#F7F6F3">Hardware &amp; boot</text>
-  <text x="82" y="540" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8A887C">ARGON OS - bootloader, scheduler</text>
-  <text x="1120" y="530" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8A887C" text-anchor="end">C - NASM - i686-elf - QEMU</text>
+  <text x="56" y="52" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="23" font-weight="700" fill="#E6EDF3">Where I actually work</text>
+  <text x="56" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8B949E">every layer below has shipped code, not coursework</text>
+  <line x1="34" y1="108" x2="34" y2="562" stroke="#30363D" stroke-width="2"/>
+  <text x="20" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E" transform="rotate(-90 20 130)" text-anchor="end">user-facing</text>
+  <text x="20" y="556" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8B949E" transform="rotate(-90 20 556)">bare metal</text>
+  <rect x="56" y="108" width="1088" height="70" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <rect x="56" y="108" width="5" height="70" rx="2.5" fill="#A3E635" opacity="1.00"/>
+  <text x="82" y="137" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#E6EDF3">Multi-tenant product</text>
+  <text x="82" y="160" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8B949E">ABS Suite - Terra, Pathshala, Hive</text>
+  <text x="1120" y="150" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E" text-anchor="end">Next.js 15 - Supabase - Prisma</text>
+  <rect x="56" y="184" width="1088" height="70" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <rect x="56" y="184" width="5" height="70" rx="2.5" fill="#A3E635" opacity="0.89"/>
+  <text x="82" y="213" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#E6EDF3">Data &amp; authorization</text>
+  <text x="82" y="236" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8B949E">164 RLS policies, tenant isolation</text>
+  <text x="1120" y="226" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E" text-anchor="end">PostgreSQL - RLS - pg-boss</text>
+  <rect x="56" y="260" width="1088" height="70" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <rect x="56" y="260" width="5" height="70" rx="2.5" fill="#A3E635" opacity="0.78"/>
+  <text x="82" y="289" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#E6EDF3">Services &amp; APIs</text>
+  <text x="82" y="312" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8B949E">XTTS voice API, Insight Engine</text>
+  <text x="1120" y="302" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E" text-anchor="end">FastAPI - Docker - Polars</text>
+  <rect x="56" y="336" width="1088" height="70" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <rect x="56" y="336" width="5" height="70" rx="2.5" fill="#A3E635" opacity="0.67"/>
+  <text x="82" y="365" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#E6EDF3">Native desktop</text>
+  <text x="82" y="388" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8B949E">Phexara browser, QRiftly scanner</text>
+  <text x="1120" y="378" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E" text-anchor="end">Electron - Python - OpenCV</text>
+  <rect x="56" y="412" width="1088" height="70" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <rect x="56" y="412" width="5" height="70" rx="2.5" fill="#A3E635" opacity="0.56"/>
+  <text x="82" y="441" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#E6EDF3">Language &amp; compiler</text>
+  <text x="82" y="464" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8B949E">GRAN - lexer, parser, IR generation</text>
+  <text x="1120" y="454" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E" text-anchor="end">C++ - LLVM 19</text>
+  <rect x="56" y="488" width="1088" height="70" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <rect x="56" y="488" width="5" height="70" rx="2.5" fill="#A3E635" opacity="0.45"/>
+  <text x="82" y="517" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#E6EDF3">Hardware &amp; boot</text>
+  <text x="82" y="540" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#8B949E">ARGON OS - bootloader, scheduler</text>
+  <text x="1120" y="530" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E" text-anchor="end">C - NASM - i686-elf - QEMU</text>
 </svg>

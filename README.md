@@ -3,6 +3,11 @@
   <img alt="Anubhav Mishra — Product Engineer. x86 kernels to LLVM compilers to multi-tenant SaaS in production. Dehradun, India. Open to work." src="assets/hero-light.svg">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/impact-dark.svg">
+  <img alt="At a glance: 5 products live in production, 164 RLS policies in Terra, 79 client-side tools in Yuitility, 326 tracked features in Pathshala, 116 repositories, 6 stack layers from bootloader to SaaS." src="assets/impact-light.svg">
+</picture>
+
 I build products end to end. Some of them run on customers' own servers behind a licence
 check, some run in a browser tab, and one of them boots off a floppy image in QEMU.
 
@@ -212,20 +217,8 @@ never competes in search for something it cannot do. `npm run seo:audit` runs as
 
 ## Activity
 
-<!-- ------------------------------------------------------------------ -->
-<!-- STATS HOST: these point at the shared public instance, which rate-  -->
-<!-- limits and can render broken. Fork github-readme-stats, deploy to   -->
-<!-- Vercel, then find/replace:                                          -->
-<!--   github-readme-stats.vercel.app  ->  your-app.vercel.app           -->
-<!-- ------------------------------------------------------------------ -->
-
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=anubhav-n-mishra&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=D9F99D&icon_color=D9F99D&text_color=8A887C&bg_color=0C0C0B" alt="GitHub statistics">
-  <img height="165" src="https://streak-stats.demolab.com?user=anubhav-n-mishra&hide_border=true&background=0C0C0B&stroke=2E2E24&ring=D9F99D&fire=D9F99D&currStreakLabel=D9F99D&sideLabels=8A887C&dates=8A887C&sideNums=F7F6F3&currStreakNum=F7F6F3" alt="Commit streak">
-</p>
-
-<p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=anubhav-n-mishra&bg_color=0C0C0B&color=F7F6F3&line=D9F99D&point=F7F6F3&area=true&hide_border=true" alt="Contribution activity over time">
+  <img height="180" src="https://streak-stats.demolab.com?user=anubhav-n-mishra&hide_border=true&background=00000000&stroke=30363D&ring=A3E635&fire=A3E635&currStreakLabel=A3E635&sideLabels=8B949E&dates=8B949E&sideNums=E6EDF3&currStreakNum=E6EDF3" alt="Commit streak">
 </p>
 
 <p align="center">
@@ -233,11 +226,6 @@ never competes in search for something it cannot do. `npm run seo:audit` runs as
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anubhav-n-mishra/anubhav-n-mishra/output/snake-dark.svg">
     <img width="98%" src="https://raw.githubusercontent.com/anubhav-n-mishra/anubhav-n-mishra/output/snake.svg" alt="Contribution graph being eaten by a snake">
   </picture>
-</p>
-
-<p align="center">
-  <a href="https://github.com/anubhav-n-mishra/Desktop-QR-Scanner"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anubhav-n-mishra&repo=Desktop-QR-Scanner&hide_border=true&title_color=D9F99D&icon_color=D9F99D&text_color=8A887C&bg_color=0C0C0B" alt="QRiftly"></a>
-  <a href="https://github.com/anubhav-n-mishra/xtts-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anubhav-n-mishra&repo=xtts-api&hide_border=true&title_color=D9F99D&icon_color=D9F99D&text_color=8A887C&bg_color=0C0C0B" alt="XTTS Voice API"></a>
 </p>
 
 ---
