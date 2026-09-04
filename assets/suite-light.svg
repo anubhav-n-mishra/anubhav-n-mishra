@@ -1,38 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 548" width="1200" height="548" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 592" width="1200" height="592" role="img">
   <text x="56" y="52" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="23" font-weight="700" fill="#1F2328">Amvelt Business Suite</text>
   <text x="56" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#59636E">products I design, build and deliver - amvelt venture studios</text>
-  <line x1="543.0" y1="247.5" x2="334.4" y2="199.2" stroke="#D0D7DE" stroke-width="1.5"/>
-  <line x1="657.0" y1="247.5" x2="865.6" y2="199.2" stroke="#D0D7DE" stroke-width="1.5"/>
-  <line x1="600.0" y1="316.0" x2="600.0" y2="382.0" stroke="#D0D7DE" stroke-width="1.5"/>
+  <line x1="543.1" y1="246.6" x2="324.1" y2="191.8" stroke="#D0D7DE" stroke-width="1.5"/>
+  <line x1="656.9" y1="246.6" x2="875.9" y2="191.8" stroke="#D0D7DE" stroke-width="1.5"/>
+  <line x1="545.9" y1="278.8" x2="319.6" y2="385.7" stroke="#D0D7DE" stroke-width="1.5"/>
+  <line x1="654.1" y1="278.8" x2="880.4" y2="385.7" stroke="#D0D7DE" stroke-width="1.5"/>
+  <line x1="970" y1="218" x2="970" y2="366" stroke="#4D7C0F" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.75"/>
+  <text x="982" y="296" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#59636E">ES256 SSO</text>
   <circle cx="600" cy="258" r="61" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1"/>
   <circle cx="600" cy="258" r="52" fill="#F6F8FA" stroke="#4D7C0F" stroke-width="2"/>
   <text x="600" y="257" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="18" font-weight="700" fill="#1F2328" text-anchor="middle">ABS</text>
   <text x="600" y="276" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#59636E" text-anchor="middle">control plane</text>
-  <rect x="150" y="158" width="180" height="68" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1"/>
-  <text x="168" y="186" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16" font-weight="600" fill="#1F2328">Terra</text>
-  <text x="168" y="207" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11.5" fill="#59636E">land lifecycle, on-prem</text>
-  <circle cx="316" cy="176" r="4.5" fill="#4D7C0F"/>
-  <rect x="870" y="158" width="180" height="68" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1"/>
-  <text x="888" y="186" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16" font-weight="600" fill="#1F2328">Hive</text>
-  <text x="888" y="207" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11.5" fill="#59636E">workspace, offline PWA</text>
-  <circle cx="1036" cy="176" r="4.5" fill="#4D7C0F"/>
-  <rect x="510" y="388" width="180" height="68" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1"/>
-  <text x="528" y="416" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16" font-weight="600" fill="#1F2328">Pathshala</text>
-  <text x="528" y="437" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11.5" fill="#59636E">multi-tenant school ERP</text>
-  <circle cx="676" cy="406" r="4.5" fill="#59636E"/>
-  <circle cx="60" cy="404" r="4.5" fill="#4D7C0F"/>
-  <text x="72" y="408" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E">shipping</text>
-  <circle cx="60" cy="426" r="4.5" fill="#59636E"/>
-  <text x="72" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E">in build</text>
-  <text x="56" y="456" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E">also in the suite: Flow, Enclave</text>
-  <line x1="56" y1="486" x2="1144" y2="486" stroke="#D0D7DE" stroke-width="1"/>
-  <text x="56" y="516" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E">independent</text>
-  <text x="250" y="510" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2328">Yuitility</text>
-  <text x="250" y="527" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11" fill="#59636E">79 client-side tools</text>
-  <text x="520" y="510" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2328">Phexara</text>
-  <text x="520" y="527" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11" fill="#59636E">Electron browser</text>
-  <text x="760" y="510" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2328">Kuroex</text>
-  <text x="760" y="527" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11" fill="#59636E">brand platform</text>
-  <text x="980" y="510" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2328">QRiftly</text>
-  <text x="980" y="527" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11" fill="#59636E">10 stars</text>
+  <rect x="140" y="150" width="180" height="68" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="158" y="178" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16" font-weight="600" fill="#1F2328">Terra</text>
+  <text x="158" y="199" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11.5" fill="#59636E">land lifecycle, on-prem</text>
+  <circle cx="306" cy="168" r="4.5" fill="#4D7C0F"/>
+  <rect x="880" y="150" width="180" height="68" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="898" y="178" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16" font-weight="600" fill="#1F2328">Hive</text>
+  <text x="898" y="199" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11.5" fill="#59636E">workspace, offline PWA</text>
+  <circle cx="1046" cy="168" r="4.5" fill="#4D7C0F"/>
+  <rect x="140" y="366" width="180" height="68" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="158" y="394" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16" font-weight="600" fill="#1F2328">Pathshala</text>
+  <text x="158" y="415" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11.5" fill="#59636E">multi-tenant school ERP</text>
+  <circle cx="306" cy="384" r="4.5" fill="#59636E"/>
+  <rect x="880" y="366" width="180" height="68" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="898" y="394" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16" font-weight="600" fill="#1F2328">Yaps</text>
+  <text x="898" y="415" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11.5" fill="#59636E">P2P video, no media server</text>
+  <circle cx="1046" cy="384" r="4.5" fill="#4D7C0F"/>
+  <circle cx="60" cy="452" r="4.5" fill="#4D7C0F"/>
+  <text x="72" y="456" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E">shipping</text>
+  <circle cx="60" cy="474" r="4.5" fill="#59636E"/>
+  <text x="72" y="478" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E">in build</text>
+  <text x="56" y="500" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E">also in the suite: Flow, Enclave</text>
+  <line x1="56" y1="524" x2="1144" y2="524" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="56" y="556" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#59636E">independent</text>
+  <text x="250" y="550" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2328">Yuitility</text>
+  <text x="250" y="567" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11" fill="#59636E">79 client-side tools</text>
+  <text x="520" y="550" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2328">Phexara</text>
+  <text x="520" y="567" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11" fill="#59636E">Electron browser</text>
+  <text x="760" y="550" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2328">Kuroex</text>
+  <text x="760" y="567" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11" fill="#59636E">brand platform</text>
+  <text x="980" y="550" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2328">QRiftly</text>
+  <text x="980" y="567" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="11" fill="#59636E">10 stars</text>
 </svg>

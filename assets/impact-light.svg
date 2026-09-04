@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img">
   <text x="56" y="40" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6" fill="#59636E">AT A GLANCE</text>
   <line x1="56" y1="58" x2="1144" y2="58" stroke="#D0D7DE" stroke-width="1"/>
-  <text x="56" y="122" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="40" font-weight="700" letter-spacing="-1" fill="#4D7C0F">5</text>
+  <text x="56" y="122" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="40" font-weight="700" letter-spacing="-1" fill="#4D7C0F">6</text>
   <text x="56" y="146" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#1F2328">products live</text>
   <text x="56" y="165" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#59636E">in production today</text>
   <line x1="223" y1="82" x2="223" y2="168" stroke="#D0D7DE" stroke-width="1"/>

@@ -27,6 +27,7 @@ Things you can go and look at right now — not demos, not screenshots.
 | **Terra** | Land, legal and approvals platform for renewable-energy developers. Ships as licensed Docker images onto the customer's own infrastructure. | [terra.amvelt.com](https://terra.amvelt.com) |
 | **Seva Sankul** | Public platform and admin portal delivered under subcontract to **GTO Sky for the Rajasthan Police**. | [sevasankul.org](https://sevasankul.org) |
 | **ABS Hive** | Amvelt's internal workspace — projects, tasks, internal `@amvelt.com` mail, live chat, full audit trail. Installable PWA that keeps working with no network. | [hive.amvelt.com](https://hive.amvelt.com) *(login required)* |
+| **Yaps** | Peer-to-peer video conferencing with no media server — full-mesh WebRTC, lobby, in-call chat, screen share, reactions. Installable PWA. | [yaps.amvelt.com](https://yaps.amvelt.com) |
 | **Yuitility** | 79 client-side tools — PDF suite, image processing, local-ML background removal. Nothing ever leaves your browser. | [yuitility.app](https://yuitility.app) |
 | **Phexara / Nebula** | Chromium desktop browser. Workspaces instead of tabs, Ctrl+K command bar, built-in AI console. Windows installer + Linux AppImage. | [phexara.mishraanubhav.me](https://phexara.mishraanubhav.me) |
 
@@ -35,6 +36,7 @@ Things you can go and look at right now — not demos, not screenshots.
 [![yuitility.app](https://img.shields.io/website?url=https%3A%2F%2Fyuitility.app&label=yuitility.app&up_message=live&up_color=2EA043&down_message=down&style=flat-square)](https://yuitility.app)
 [![sevasankul.org](https://img.shields.io/website?url=https%3A%2F%2Fsevasankul.org&label=sevasankul.org&up_message=live&up_color=2EA043&down_message=down&style=flat-square)](https://sevasankul.org)
 [![phexara](https://img.shields.io/website?url=https%3A%2F%2Fphexara.mishraanubhav.me&label=phexara&up_message=live&up_color=2EA043&down_message=down&style=flat-square)](https://phexara.mishraanubhav.me)
+[![yaps.amvelt.com](https://img.shields.io/website?url=https%3A%2F%2Fyaps.amvelt.com&label=yaps.amvelt.com&up_message=live&up_color=2EA043&down_message=down&style=flat-square)](https://yaps.amvelt.com)
 
 ---
 
@@ -105,6 +107,32 @@ An installable PWA that genuinely works with no network, not one that shows a sa
 Interface follows Apple's fluid-interface principles: feedback on pointer-down rather than
 release, drags tracking one-to-one, flicks resolved by projecting release velocity.
 `prefers-reduced-motion`, `prefers-reduced-transparency` and `prefers-contrast` all honoured.
+
+</details>
+
+<details>
+<summary><b>Yaps</b> — video calling with no media server, and an SSO trick worth stealing</summary>
+
+<br>
+
+Full-mesh WebRTC over PeerJS. Every participant connects directly to every other
+participant, so there is no SFU, no MCU, and no media ever touches a server I pay for.
+Static files on Vercel, and the call itself is peer-to-peer.
+
+- **STUN plus TURN relay fallback**, because full mesh is useless if a participant sits
+  behind a symmetric NAT and the connection silently never establishes.
+- Lobby / waiting room, in-call chat, screen share via `getDisplayMedia`, reactions.
+- Installable PWA with a service worker.
+- **Permissions-Policy scoped at the edge** — `camera=(self), microphone=(self),
+  display-capture=(self)` — alongside `nosniff`, `X-Frame-Options` and a strict
+  `Referrer-Policy`, set in `vercel.json` rather than left to defaults.
+
+The part I like most is the single sign-on. Hive's join button appends a short-lived
+**ES256-signed ticket in the URL fragment**, which means it never leaves the browser and
+never reaches a server log. Yaps verifies it against Hive's **public** key only — so there
+is no secret in the client for anyone to lift — and a valid ticket proves exactly one
+thing: a live Hive session existed moments ago. Key rotation swaps the public half here
+and the private half in Hive's environment together.
 
 </details>
 
@@ -189,6 +217,7 @@ never competes in search for something it cannot do. `npm run seo:audit` runs as
 `Tailwind` · `MinIO / S3`
 `OpenCV` · `Polars` · `DuckDB`
 `WebAuthn` · `Web Push`
+`WebRTC` · `PeerJS`
 
 </td>
 <td valign="top" width="33%">
