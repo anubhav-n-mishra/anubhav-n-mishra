@@ -22,8 +22,8 @@ Things you can go and look at right now — not demos, not screenshots.
 | **Terra** | Land, legal and approvals platform for renewable-energy developers. Ships as licensed Docker images onto the customer's own infrastructure. | [terra.amvelt.com](https://terra.amvelt.com) |
 | **Seva Sankul** | Public platform and admin portal delivered under subcontract to **GTO Sky for the Rajasthan Police**. | [sevasankul.org](https://sevasankul.org) |
 | **ABS Hive** | Amvelt's internal workspace — projects, tasks, internal `@amvelt.com` mail, live chat, full audit trail. Installable PWA that keeps working with no network. | [hive.amvelt.com](https://hive.amvelt.com) *(login required)* |
-| **Yuitility** | 79 client-side tools — PDF suite, image processing, local-ML background removal. Nothing ever leaves your browser. | *link on request* |
-| **Phexara / Nebula** | Chromium desktop browser. Workspaces instead of tabs, Ctrl+K command bar, built-in AI console. Windows installer + Linux AppImage. | *download on request* |
+| **Yuitility** | 79 client-side tools — PDF suite, image processing, local-ML background removal. Nothing ever leaves your browser. | [yuitility.app](https://yuitility.app) |
+| **Phexara / Nebula** | Chromium desktop browser. Workspaces instead of tabs, Ctrl+K command bar, built-in AI console. Windows installer + Linux AppImage. | [phexara.mishraanubhav.me](https://phexara.mishraanubhav.me) |
 
 ---
 
