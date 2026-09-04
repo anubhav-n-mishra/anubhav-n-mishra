@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img">
+  <rect width="1200" height="340" fill="#0C0C0B"/>
+  <rect x="860" y="46" width="198" height="16" rx="8" fill="#D9F99D" opacity="0.20"/>
+  <rect x="860" y="84" width="232" height="16" rx="8" fill="#D9F99D" opacity="0.29"/>
+  <rect x="860" y="122" width="266" height="16" rx="8" fill="#D9F99D" opacity="0.38"/>
+  <rect x="860" y="160" width="300" height="16" rx="8" fill="#D9F99D" opacity="0.47"/>
+  <rect x="860" y="198" width="266" height="16" rx="8" fill="#D9F99D" opacity="0.38"/>
+  <rect x="860" y="236" width="232" height="16" rx="8" fill="#D9F99D" opacity="0.29"/>
+  <rect x="860" y="274" width="198" height="16" rx="8" fill="#D9F99D" opacity="0.20"/>
+  <line x1="72" y1="196" x2="792" y2="196" stroke="#2E2E24" stroke-width="1"/>
+  <text x="72" y="118" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="-1.5" fill="#F7F6F3">Anubhav Mishra</text>
+  <text x="72" y="164" font-family="DM Sans,Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="25" font-weight="600" letter-spacing="0.5" fill="#D9F99D">Product Engineer</text>
+  <text x="72" y="234" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" fill="#8A887C">x86 kernels &#8594; LLVM compilers &#8594; multi-tenant SaaS in production</text>
+  <rect x="72" y="266" width="140" height="30" rx="15" fill="#1C1C15" stroke="#2E2E24" stroke-width="1"/>
+  <text x="85" y="286" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#8A887C">Dehradun, India</text>
+  <rect x="246" y="266" width="132" height="30" rx="15" fill="#1C1C15" stroke="#2E2E24" stroke-width="1"/>
+  <text x="259" y="286" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#8A887C">IST / UTC+5:30</text>
+  <rect x="404" y="266" width="148" height="30" rx="15" fill="#1C1C15" stroke="#2E2E24" stroke-width="1"/>
+  <text x="417" y="286" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#8A887C">Remote worldwide</text>
+  <rect x="588" y="266" width="117" height="30" rx="15" fill="#1C1C15" stroke="#2E2E24" stroke-width="1"/>
+  <text x="612" y="286" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#8A887C">Open to work</text>
+  <circle cx="600" cy="281" r="4" fill="#D9F99D"/>
+</svg>
