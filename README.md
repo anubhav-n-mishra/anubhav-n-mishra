@@ -5,8 +5,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/impact-dark.svg">
-  <img alt="At a glance: 5 products live in production, 164 RLS policies in Terra, 160+ client-side tools in Yuitility, 326 tracked features in Pathshala, 126 repositories, 6 stack layers from bootloader to SaaS." src="assets/impact-light.svg">
-</picture>
+  <img alt="At a glance: 5 products live in production, 164 RLS policies in Terra, 160+ client-side tools in Yuitility, 326 tracked features in Pathshala, 126 repositories, 6 stack layers from bootloader to SaaS." src="assets/impact-light.svg"> </picture>
 
 I build products end to end. Some of them run on customers' own servers behind a licence
 check, some run in a browser tab, and one of them boots off a floppy image in QEMU.
