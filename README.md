@@ -14,7 +14,7 @@ check, some run in a browser tab, and one of them boots off a floppy image in QE
 I run engineering at **Amvelt Venture Studios**, where I design and ship the ABS product
 suite. Before that I led a four-person team building an x86 operating system from the
 bootloader up, and wrote a compiler with a real LLVM backend. I mention those two not
-because they pay the bills, but because they are why I am comfortable anywhere in a stack.
+because they pay the bills, but because they are why I am comfortable anywhere in a stack
 
 ---
 
